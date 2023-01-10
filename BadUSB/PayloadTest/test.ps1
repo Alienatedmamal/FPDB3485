@@ -1,1 +1,1 @@
-powershell.exe echo Helloworld
+powershell.exe -w hidden -noninteractive echo Helloworld
