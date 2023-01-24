@@ -1,1 +1,0 @@
-For Kali pub facing 
